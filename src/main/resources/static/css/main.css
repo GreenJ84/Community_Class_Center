@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+	background-color: lightgrey;
+}
+
+.title{
+	margin: 30px 50px 0px;
+	font-size: 40px;
+}
+
+.topLink{
+	position: fixed;
+	top: 20px;
+	right: 30px;
+}
+
+.form{
+	width: 80%;
+	margin: 0px 10%;
+}
+
+.input{
+	width: 60%;
+}
+
+.errors{
+	color:red;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.validation{
+	color: red;
+	display: block;
+}
+
+.add{
+	width: 100%;
+	display: flex;
+	column-gap: 8%;
+	padding: 0px 6%;
+}
